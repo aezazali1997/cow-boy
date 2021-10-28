@@ -1,8 +1,9 @@
 import { defineComponent, ref } from "vue";
 import styles from "./Carousel.style";
-import cursorLeft from "@/assets/arrow-left.png";
-import cursorRight from "@/assets/arrow-right.png";
-import image1 from "@/assets/chain.png";
+import cursorLeft from "@/assets/arrow-left-white.png";
+import cursorRight from "@/assets/arrow-right-white.png";
+import { images } from "./images";
+import redDotImage from "@/assets/redDot.png";
 export default defineComponent({
   name: "Carousal",
   props: {},
@@ -19,7 +20,8 @@ export default defineComponent({
       cursor,
       cursorLeft,
       cursorRight,
-      image1,
+      images,
+      redDotImage,
     };
   },
 });

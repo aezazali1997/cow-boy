@@ -8,7 +8,8 @@
           : `url(${cursorLeft}), auto`,
     }"
   >
-    <img src="" alt="" />
+    <img :src="images[1]" alt="" :class="classes.image" />
+    <img :src="redDotImage" alt="" :class="classes.redDot" />
   </div>
 </template>
 <script lang="ts" src="./Carousel.ts" />
