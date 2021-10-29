@@ -1,15 +1,18 @@
 import { createUseStyles } from "vue-jss";
 const styles = createUseStyles({
   container: {
-    width: "100%",
+    maxWidth: "100%",
     height: "100vh",
-    overflow: "hidden",
-    background: "transparent",
     position: "relative",
+    display: "flex",
+    alignItems: "center",
+    transform: "translateX(0)",
+    transition: "transform .7s ease-out",
   },
   image: {
-    display: "block",
     width: "100%",
+    display: "block",
+    objectFit: "contain",
   },
   redDot: {
     position: "absolute",
