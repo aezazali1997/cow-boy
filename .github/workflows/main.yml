@@ -42,5 +42,5 @@ jobs:
         run: npm install -g surge
          # run surge
       - name: run surge
-        run: surge ./build vue-cowboy-app.surge.sh --token ${{secrets.SURGE_TOKEN}}     
+        run: surge ./dist vue-cowboy-app.surge.sh --token ${{secrets.SURGE_TOKEN}}     
 
