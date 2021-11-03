@@ -43,16 +43,4 @@ jobs:
          # run surge
       - name: run surge
         run: surge ./build vue-cowboy-app.surge.sh --token ${{secrets.SURGE_TOKEN}}     
-          
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
