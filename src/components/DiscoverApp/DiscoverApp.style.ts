@@ -5,6 +5,7 @@ const styles = createUseStyles({
     height: "250vh",
     background: "#efefef",
     position: "relative",
+    overflow: "hidden",
   },
   txtWrapper: {
     position: "absolute",
