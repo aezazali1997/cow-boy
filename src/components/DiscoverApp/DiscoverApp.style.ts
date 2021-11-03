@@ -2,7 +2,7 @@ import { createUseStyles } from "vue-jss";
 const styles = createUseStyles({
   wrapper: {
     width: "100%",
-    height: "200vh",
+    height: "250vh",
     background: "#efefef",
     position: "relative",
   },
@@ -52,8 +52,21 @@ const styles = createUseStyles({
   },
   mediaLeft: {
     marginLeft: -60,
-    marginTop: "10rem",
+    marginTop: "12rem",
     marginRight: ".72rem",
+    display: "flex",
+    flexDirection: "column",
+    width: "250px",
+    "& img": {
+      width: "100%",
+      margin: "1rem 0",
+      display: "block",
+    },
+  },
+  mediaRight: {
+    marginRight: -60,
+    marginTop: "10rem",
+    marginLeft: ".72rem",
     display: "flex",
     flexDirection: "column",
     width: "250px",
@@ -65,7 +78,9 @@ const styles = createUseStyles({
   },
   moveLeft: {
     display: "flex",
-    margin: "0 .75rem",
+    transition: "all .3s ease-in",
+    marginInline: ".75rem",
+    marginTop: "10rem",
     flexDirection: "column",
     width: 250,
     "& img": {
@@ -73,6 +88,22 @@ const styles = createUseStyles({
       margin: "1rem 0",
       display: "block",
     },
+  },
+  moveRight: {
+    display: "flex",
+    marginInline: ".75rem",
+    marginTop: "10rem",
+    flexDirection: "column",
+    transition: "all .3s ease-in",
+    width: 250,
+    "& img": {
+      width: "100%",
+      margin: "1rem 0",
+      display: "block",
+    },
+  },
+  marginTop7: {
+    marginTop: "7rem",
   },
 });
 export default styles;
