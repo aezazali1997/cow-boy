@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@aezazali1997 
-aezazali1997
-/
-portfolio
-Public
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-portfolio/.github/workflows/deno.yml
-@aezazali1997
-aezazali1997 updated the file
-Latest commit 8e52c42 on Jun 11
- History
- 1 contributor
-55 lines (48 sloc)  1.7 KB
-   
-# This is a basic workflow to help you get started with Actions
 
 name: Deploy react app
 
