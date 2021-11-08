@@ -1,10 +1,16 @@
 <template>
-  <div><h1>Cowboy 3</h1></div>
+  <div>
+    <Navbar />
+  </div>
 </template>
 
 <script lang="ts">
+import Navbar from "@/components/Navbar/Navbar.vue";
 export default {
   name: "Cowboy3",
+  components: {
+    Navbar,
+  },
 };
 </script>
 

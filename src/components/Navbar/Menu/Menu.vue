@@ -1,13 +1,13 @@
 <template>
   <ul :class="classes.list">
     <li>
-      <router-link to="/cowboy3">cowboy 3</router-link>
+      <router-link to="products/cowboy3">cowboy 3</router-link>
     </li>
     <li>
-      <router-link to="/cowboy4">cowboy 4</router-link>
+      <router-link to="products/cowboy4">cowboy 4</router-link>
     </li>
     <li>
-      <router-link to="/cowboy4st">cowboy 4 st</router-link>
+      <router-link to="products/cowboy4st">cowboy 4 st</router-link>
     </li>
     <li>
       <router-link to="/app">app</router-link>

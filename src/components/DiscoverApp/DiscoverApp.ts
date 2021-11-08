@@ -48,9 +48,11 @@ export default defineComponent({
       document.addEventListener("scroll", () => {
         const diff =
           document.body.getBoundingClientRect().top * -1 - startLimit.value;
-        if (diff > 0) {
-          console.log(wrapper.clientHeight / 2);
-          console.log("enter element zone :", diff);
+        const wrapperHeight =
+          wrapper.getBoundingClientRect().bottom -
+          wrapper.getBoundingClientRect().top;
+        if (diff > 0 && diff < wrapperHeight) {
+          console.log(diff);
         }
       });
     });
